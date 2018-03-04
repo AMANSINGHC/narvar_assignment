@@ -1,0 +1,24 @@
+{
+	"employees": [
+		{
+			"id": 610001,
+			"firstName": "Aman",
+			"middleName": "Singh",
+			"lastName": "Chauhan",
+			"homeTown": "Jabalpur",
+			"currentCity": "Chennai",
+			"companyName": "Cognizant",
+			"rating": 2
+		},
+		{
+			"id": 610002,
+			"firstName": "Smriti",
+			"middleName": "Akshay",
+			"lastName": "Jha",
+			"homeTown": "Mumbai",
+			"currentCity": "Hyderabad",
+			"companyName": "Wipro",
+			"rating": 1
+		}
+	]		
+}

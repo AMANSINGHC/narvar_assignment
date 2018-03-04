@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Narvar FrontEnd Test">
+	<test name="Narvar API Test">
+		<parameter name="id" value="610001" />
+		<parameter name="idForUpdate" value="610003" />
+		<parameter name="middleName" value="Kumar" />
+		<classes>
+			<class name="testcases.BackEndTCs" />
+		</classes>
+	</test>
+</suite> 

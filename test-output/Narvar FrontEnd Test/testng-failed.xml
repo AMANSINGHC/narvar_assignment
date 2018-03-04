@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Narvar FrontEnd Test]">
+  <test thread-count="5" name="Narvar API Test(failed)">
+    <parameter name="idForUpdate" value="610003"/>
+    <parameter name="middleName" value="Kumar"/>
+    <parameter name="id" value="610001"/>
+    <classes>
+      <class name="testcases.BackEndTCs">
+        <methods>
+          <include name="loadPropertiesFile"/>
+          <include name="launchBrowser"/>
+          <include name="addNewEmployeeDetails"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.BackEndTCs -->
+    </classes>
+  </test> <!-- Narvar API Test(failed) -->
+</suite> <!-- Failed suite [Narvar FrontEnd Test] -->

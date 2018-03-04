@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Narvar Assignment]">
+  <test thread-count="5" name="Narvar FrontEnd Test(failed)">
+    <classes>
+      <class name="testcases.FrontEndTCs">
+        <methods>
+          <include name="isEnabledCommentInput"/>
+          <include name="verifyPageTitle"/>
+          <include name="isEnabledStarRating"/>
+          <include name="verifyCustomerServiceNavigation"/>
+          <include name="verifyPageNavigation"/>
+          <include name="verifyCommentTyped"/>
+          <include name="verifyTextForRating"/>
+          <include name="loadPropertiesFile"/>
+          <include name="launchBrowser"/>
+          <include name="verifySendBtnText"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.FrontEndTCs -->
+    </classes>
+  </test> <!-- Narvar FrontEnd Test(failed) -->
+</suite> <!-- Failed suite [Narvar Assignment] -->

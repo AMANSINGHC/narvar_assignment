@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Narvar FrontEnd Test" duration-ms="100426" started-at="2018-03-04T10:15:23Z" finished-at="2018-03-04T10:17:04Z">
+    <groups>
+      <group name="UI Test">
+        <method signature="FrontEndTCs.isEnabledCommentInput()[pri:1, instance:testcases.FrontEndTCs@57baeedf]" name="isEnabledCommentInput" class="testcases.FrontEndTCs"/>
+        <method signature="FrontEndTCs.isEnabledStarRating()[pri:3, instance:testcases.FrontEndTCs@57baeedf]" name="isEnabledStarRating" class="testcases.FrontEndTCs"/>
+        <method signature="FrontEndTCs.verifyCommentTyped()[pri:2, instance:testcases.FrontEndTCs@57baeedf]" name="verifyCommentTyped" class="testcases.FrontEndTCs"/>
+        <method signature="FrontEndTCs.verifyCustomerServiceNavigation()[pri:8, instance:testcases.FrontEndTCs@57baeedf]" name="verifyCustomerServiceNavigation" class="testcases.FrontEndTCs"/>
+        <method signature="FrontEndTCs.verifySendBtnText()[pri:6, instance:testcases.FrontEndTCs@57baeedf]" name="verifySendBtnText" class="testcases.FrontEndTCs"/>
+        <method signature="FrontEndTCs.verifyTextForRating()[pri:4, instance:testcases.FrontEndTCs@57baeedf]" name="verifyTextForRating" class="testcases.FrontEndTCs"/>
+        <method signature="FrontEndTCs.verifyPageNavigation()[pri:5, instance:testcases.FrontEndTCs@57baeedf]" name="verifyPageNavigation" class="testcases.FrontEndTCs"/>
+        <method signature="FrontEndTCs.verifyPageTitle()[pri:7, instance:testcases.FrontEndTCs@57baeedf]" name="verifyPageTitle" class="testcases.FrontEndTCs"/>
+      </group> <!-- UI Test -->
+    </groups>
+    <test name="Narvar UI Test" duration-ms="100426" started-at="2018-03-04T10:15:23Z" finished-at="2018-03-04T10:17:04Z">
+      <class name="testcases.FrontEndTCs">
+        <test-method status="PASS" signature="loadPropertiesFile()[pri:0, instance:testcases.FrontEndTCs@57baeedf]" name="loadPropertiesFile" is-config="true" duration-ms="125" started-at="2018-03-04T10:15:23Z" finished-at="2018-03-04T10:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropertiesFile -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testcases.FrontEndTCs@57baeedf]" name="launchBrowser" is-config="true" duration-ms="14915" started-at="2018-03-04T10:15:23Z" finished-at="2018-03-04T10:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="isEnabledCommentInput()[pri:1, instance:testcases.FrontEndTCs@57baeedf]" name="isEnabledCommentInput" duration-ms="2198" started-at="2018-03-04T10:15:38Z" description="Check if textarea comment input field is enabled." finished-at="2018-03-04T10:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isEnabledCommentInput -->
+        <test-method status="PASS" signature="verifyCommentTyped()[pri:2, instance:testcases.FrontEndTCs@57baeedf]" name="verifyCommentTyped" duration-ms="4268" started-at="2018-03-04T10:15:41Z" description="Check if the user is able to type in the textarea, and if the entered comment is same what user typed." depends-on-methods="testcases.FrontEndTCs.isEnabledCommentInput" finished-at="2018-03-04T10:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCommentTyped -->
+        <test-method status="PASS" signature="isEnabledStarRating()[pri:3, instance:testcases.FrontEndTCs@57baeedf]" name="isEnabledStarRating" duration-ms="466" started-at="2018-03-04T10:15:45Z" description="Check if all the star ratings are enabled" finished-at="2018-03-04T10:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isEnabledStarRating -->
+        <test-method status="PASS" signature="verifyTextForRating()[pri:4, instance:testcases.FrontEndTCs@57baeedf]" name="verifyTextForRating" duration-ms="1995" started-at="2018-03-04T10:15:45Z" description="Check if terrible is printed for for 1st star rating, bad is printed for 2nd star rating and so on." depends-on-methods="testcases.FrontEndTCs.isEnabledStarRating" finished-at="2018-03-04T10:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextForRating -->
+        <test-method status="PASS" signature="verifyPageNavigation()[pri:5, instance:testcases.FrontEndTCs@57baeedf]" name="verifyPageNavigation" duration-ms="65240" started-at="2018-03-04T10:15:47Z" description="Verify the navigation of menu buttons" finished-at="2018-03-04T10:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageNavigation -->
+        <test-method status="PASS" signature="verifySendBtnText()[pri:6, instance:testcases.FrontEndTCs@57baeedf]" name="verifySendBtnText" duration-ms="110" started-at="2018-03-04T10:16:53Z" description="Check if &quot;Send Feedback&quot; text is present in the Send Feedback button." finished-at="2018-03-04T10:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySendBtnText -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:7, instance:testcases.FrontEndTCs@57baeedf]" name="verifyPageTitle" duration-ms="58" started-at="2018-03-04T10:16:53Z" description="Check if the web page title is same as per requirement." finished-at="2018-03-04T10:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="verifyCustomerServiceNavigation()[pri:8, instance:testcases.FrontEndTCs@57baeedf]" name="verifyCustomerServiceNavigation" duration-ms="8082" started-at="2018-03-04T10:16:53Z" description="Check if Customer Page gets opened successfully if user clicks on contact us present in the tooltip message." finished-at="2018-03-04T10:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerServiceNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.FrontEndTCs@57baeedf]" name="closeBrowser" is-config="true" duration-ms="2927" started-at="2018-03-04T10:17:01Z" finished-at="2018-03-04T10:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.FrontEndTCs -->
+    </test> <!-- Narvar UI Test -->
+  </suite> <!-- Narvar FrontEnd Test -->
+  <suite name="Narvar FrontEnd Test (0)" duration-ms="9345" started-at="2018-03-04T10:17:04Z" finished-at="2018-03-04T10:17:13Z">
+    <groups>
+    </groups>
+    <test name="Narvar API Test" duration-ms="9345" started-at="2018-03-04T10:17:04Z" finished-at="2018-03-04T10:17:13Z">
+      <class name="testcases.BackEndTCs">
+        <test-method status="PASS" signature="loadPropertiesFile()[pri:0, instance:testcases.BackEndTCs@27c20538]" name="loadPropertiesFile" is-config="true" duration-ms="2" started-at="2018-03-04T10:17:04Z" finished-at="2018-03-04T10:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropertiesFile -->
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:testcases.BackEndTCs@27c20538]" name="initialSetUp" is-config="true" duration-ms="1958" started-at="2018-03-04T10:17:04Z" finished-at="2018-03-04T10:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="validateStatusCode()[pri:1, instance:testcases.BackEndTCs@27c20538]" name="validateStatusCode" duration-ms="3886" started-at="2018-03-04T10:17:06Z" description="Check if the status code is 200." finished-at="2018-03-04T10:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode -->
+        <test-method status="PASS" signature="validateContentType()[pri:2, instance:testcases.BackEndTCs@27c20538]" name="validateContentType" duration-ms="260" started-at="2018-03-04T10:17:10Z" description="Check if the response content type is in JSON format." finished-at="2018-03-04T10:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContentType -->
+        <test-method status="PASS" signature="validateFirstName(java.lang.String)[pri:3, instance:testcases.BackEndTCs@27c20538]" name="validateFirstName" duration-ms="2638" started-at="2018-03-04T10:17:10Z" description="Check if the respnse have firstName as Aman for empId as 610001." finished-at="2018-03-04T10:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[610001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFirstName -->
+        <test-method status="FAIL" signature="addNewEmployeeDetails()[pri:4, instance:testcases.BackEndTCs@27c20538]" name="addNewEmployeeDetails" duration-ms="272" started-at="2018-03-04T10:17:13Z" description="Add new employee detail and verify it." finished-at="2018-03-04T10:17:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <201> doesn't match actual status code <500>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> doesn't match actual status code <500>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:598)
+at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:760)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)
+at com.jayway.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)
+at com.jayway.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+at testcases.BackEndTCs.addNewEmployeeDetails(BackEndTCs.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployeeDetails -->
+        <test-method status="PASS" signature="updateEmployeeDetails(java.lang.String, java.lang.String)[pri:5, instance:testcases.BackEndTCs@27c20538]" name="updateEmployeeDetails" duration-ms="259" started-at="2018-03-04T10:17:13Z" description="Update middleName as Kumar where id=610003" finished-at="2018-03-04T10:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[610003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeDetails -->
+      </class> <!-- testcases.BackEndTCs -->
+    </test> <!-- Narvar API Test -->
+  </suite> <!-- Narvar FrontEnd Test (0) -->
+  <suite name="Narvar Assignment" duration-ms="0" started-at="2018-03-04T10:17:15Z" finished-at="2018-03-04T10:17:15Z">
+    <groups>
+    </groups>
+  </suite> <!-- Narvar Assignment -->
+</testng-results>
